@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EmiCalculator</string>
+    <string name="emi">Select</string>
+    <string-array name="type">
+
+        <item>Home Loan</item>
+        <item>Car Loan</item>
+        <item>Personal Loan</item>
+        <item>Business Loan</item>
+    </string-array>
+</resources>

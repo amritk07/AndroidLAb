@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculate"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:paddingVertical="8dp"
+        android:background="@color/colorPrimary"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        />
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/type"
+        android:layout_marginHorizontal="60dp"
+        android:text="PERSONAL LOAN"
+        android:textAlignment="center"
+        android:background="@color/grey"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Principal Amount"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/principle"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMI(Monthaly Instalment)"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emi"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+
+
+</LinearLayout>

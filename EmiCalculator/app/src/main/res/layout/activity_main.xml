@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/app_name"
+       android:textAlignment="center"
+       android:textColor="@color/black"
+       android:paddingVertical="8dp"
+       android:background="@color/colorPrimary"
+       android:textSize="30dp"
+       android:fontFamily="sans-serif-black"
+       />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:entries="@array/type"
+        android:layout_marginTop="8dp"
+        android:prompt="@string/emi"
+        android:id="@+id/s1"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loan Amount"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:hint="Rs"
+        android:inputType="numberDecimal"
+        android:id="@+id/e1"
+
+
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interest Rate"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:hint="%(p.a)"
+        android:inputType="numberDecimal"
+        android:id="@+id/e2"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loan Tenure"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:hint="Years"
+        android:inputType="number"
+        android:id="@+id/e3"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:layout_weight="1"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorPrimary"
+            android:onClick="reset"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CalCulate"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:onClick="claculate"
+            />
+
+
+
+
+</LinearLayout>
+</LinearLayout>
